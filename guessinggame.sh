@@ -1,6 +1,6 @@
 #!/bin/bash
 
-n_lines=$(ls | wc -w)
+n_lines=$(ls | wc -l)
 response=0
 
 function test {
